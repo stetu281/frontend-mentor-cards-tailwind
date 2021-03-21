@@ -28895,6 +28895,24 @@ video {
           animation: bounce 1s infinite;
 }
 
+.card {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+  border-top-width: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.card-icon {
+  align-self: flex-end;
+  margin-top: 1.75rem;
+  width: 3.5rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
