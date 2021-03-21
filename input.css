@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card {
-    @apply bg-white rounded-lg p-6 flex flex-col shadow-xl border-t-4;
+    @apply bg-white rounded-lg p-6 flex flex-col shadow-xl border-t-4  max-w-sm max-h-56;
 }
 
 .card-icon {
