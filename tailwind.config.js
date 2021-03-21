@@ -14,6 +14,9 @@ module.exports = {
         darkblue: 'hsl(234, 12%, 34%)',
         grayblue: 'hsl(229, 6%, 66%)',
         lightgray: 'hsl(0, 0%, 98%)', 
+      },
+      fontSize: {
+        'basic': '15px',
       }
     },
   },
